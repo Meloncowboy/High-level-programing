@@ -1,12 +1,12 @@
 #include <iostream>
 using namespace std;
 
-void myFunction(int x) {
+int myFunction(int x) {
     return 5 + x;
 }
 
 int main()
 {
-    cout << myFunction(3)
+    cout << myFunction(3);
     return 0;
 }
